@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    }
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family:'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,ol,ul,p,span{
+    margin:0;
+    padding:0;
+}
+:root{
+    --primaryfont:'Poppins', sans-serif;
+    --secondaryfont: 'PT Sans', sans-serif;
+    --primarycolor:#FC0;
+    --secondarycolor:#353535;
+}
+.button{
+    background-color:var(--primarycolor);
+    color:white;
+    font-family:var(--primaryfont);
+    font-size:20px;
+    font-weight: 500;
+    padding:16px 45px;
+    border-radius:20px;
+    line-height: 180%; /* 36px */
+    display: inline-block;
+    margin-right:20px;
+}
+.button.outline{
+    background-color:transparent;
+    color:var(--secondarycolor);
+    border:1px solid var(--secondarycolor);
+    border-radius:20px;
+    padding:16px 45px;
+
+}
+.heading h2{
+    color: #353535;
+text-align: center;
+font-family: PT Sans;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.heading p{
+    color: #7A7A7A;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 32.4px */
+}
+/* nav start */
+ul li {
+ text-transform: uppercase;
+ font-family:var(--primaryfont);
+ font-weight: 500;
+ font-size:15px ;
+ color:#353535;
+ padding:18px 22px 5px;
+ position: relative;
+
+}
+.navbar-toggler{
+    border:0;
+    box-shadow: none !important;}
+
+    #navbarSupportedContent ul li::after{
+        content:'';
+        width:0%;
+        height:1px;
+        background-color: #353535;
+        position: absolute;
+        opacity:0;
+        visibility: hidden;
+        bottom:0;
+        left:0;
+        transition:0.30s;
+
+    }
+    #navbarSupportedContent ul li:hover::after{
+        width:100%;
+        opacity:1;
+        visibility: visible;
+    }
+/* nav ends */
+/* banner start */
+.image img{
+    max-width:100%;
+}
+#banner h4{
+color:var(--secondarycolor);
+font-family:var(--primaryfont);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom:20px;
+}
+#banner h1{
+color:var(--secondarycolor);
+font-family:var(--secondaryfont);
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom:20px;
+}
+#banner p{
+color:var(--secondarycolor);
+font-family:var(--primaryfont);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 36px */
+margin-bottom:45px;
+}
+.social{
+    margin-top:40px
+}
+.social .row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.social ul li{
+    display: inline-block;
+}
+.social ul li a{
+background-color:white;
+display: inline-block;
+text-align: center;
+color:black;
+width:10px;
+height:10px;
+padding-top:0px;
+
+}
+.social h4{
+    color:var(--secondarycolor);
+font-family:var(--primaryfont);
+font-size: 15px;
+font-style: normal;
+font-weight:400;
+padding-bottom:0px;
+}
+/* banner ends */
+/* about start */
+#about{
+    margin-top:167px;
+    background: linear-gradient(95deg, #FC0 -21.46%, #FFF5CB 112.13%);
+}
+#about .text h4{
+    color: #353535;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 190%; /* 38px */
+}
+#about .text h2{
+    color: #353535;
+font-family: PT Sans;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom:26px;
+}
+#about .button a{
+    color:#353535;
+}
+#about .button{
+    background-color:transparent;
+    border: 1px solid black;
+    margin-top:62px;
+}
+#about .container{
+    position: relative;
+}
+#about .circle{
+    position: absolute;
+    right:50px;
+    bottom:0;
+}
+/* about ends */
+/* card start */
+#card{
+    margin-top:75px;
+}
+.servicecard{
+    background-color:white;
+    padding:50px;
+    border:1px solid whitesmoke;
+    border-radius:20px;
+}
+.servicecard .img{
+    margin-top:18px;
+    margin-bottom:20px;
+}
+.servicecard .text h2{
+    color: #353535;
+text-align: center;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 180%; /* 39.6px */
+margin-bottom:20px;
+
+}
+.servicecard .text p{
+    color: #7A7A7A;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 190%; /* 30.4px */
+}
+/* card ends */
+/* branding start */
+#branding{
+    background-color:white;
+    margin:165px;
+}
+.brandingcard{
+    margin-top:165px;
+    border-radius: 20px;
+background: linear-gradient(95deg, #FC0 -21.46%, #FFF5CB 112.13%);
+padding:30px;
+}
+.brandingcard .image{
+    margin-bottom:-30px;
+}
+.brandingcard .text h2{
+    color: #353535;
+    font-family: PT Sans;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom:21px;
+}
+.brandingcard .text h4{
+    color: #353535;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 190%; /* 34.2px */
+}
+.brandingcard .button.outline{
+    margin-top:66px;
+}
+.brandingcard .button.outline a{
+    color: black;
+}
+.container{
+    position: relative;
+}
+.brandingcard .liner{
+    position: absolute;
+    top:60%;
+}
+.brandingcard .shaper{
+    position: absolute;
+    left:80%;
+    bottom:90%;
+    
+}
+/* branding ends */
+/* windows start */
+.design{
+    background-color: #fff;
+}
+.design .row{
+    margin-bottom:40px;
+    background-color:#fff;
+    border:2px solid whitesmoke;
+    padding:20px;
+    border-radius:10px;
+}
+
+.design .text1 h3{
+    color: #353535;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 180%; /* 32.4px */
+}
+.text1 p{
+    color: #353535;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%; /* 21.6px */
+}
+.picture2 img{
+    background-color:#FEDC2A;
+    width:58px;
+    height:58px;
+    border-radius:50%;
+}
+.picture3 img{
+    background-color:#FF8D3A;
+    width:58px;
+    height:58px;
+    border-radius:50%;
+}
+.help.text h2{
+    color: #353535;
+text-align: right;
+font-family: PT Sans;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+}
+.help.text p{
+    color: #353535;
+text-align: right;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 190%; /* 38px */
+margin-bottom:30px;
+}
+.number h3{
+    color: #353535;
+text-align:left;
+font-family: PT Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.number p{
+    color: #353535;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%; /* 25.2px */
+}
+/* windows ends */
+/* work start */
+#work{
+    padding:100px 0;
+}
+.timeline .year{
+    padding: 21px 0 98px;
+    border-right: 1px dashed #7A7A7A;
+    position: relative;
+}
+.timeline .year::after{
+    content:"";
+    width:42px;
+    height: 42px;
+    background-color: #fff;
+    border:2px dashed #7A7A7A;
+    position: absolute;
+    top:-21px;
+    right:-21px;
+    border-radius:50%;
+}
+.timeline .year::before{
+    content:"";
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    position: absolute;
+    top:-10px;
+    right:-10px;
+    z-index:9999;
+}
+#work h2{
+    color: #353535;
+text-align:center;
+font-family: PT Sans;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom:30px;
+}
+.year h3{
+    color: #353535;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 180%; /* 43.2px */
+}
+.year p{
+    color: #7A7A7A;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%; /* 32.4px */
+}
+.title h3{
+    color: #353535;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 180%; /* 43.2px */
+margin-top:10px;
+}
+.title p{
+    color: #7A7A7A;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 200.5%; /* 36.09px */
+}
+.timeline.green .year::before{
+    background-color:#52AB70; 
+}
+.timeline.red .year::before{
+    background-color:#F17676;; 
+}
+.timeline.yellow .year::before{
+    background-color:#FFD233; 
+}
+/* WORK END */
+/* expert start*/
+#expert{
+    margin:100px 0;
+}
+.paragraph h2{
+    color: #353535;
+font-family: PT Sans;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.paragraph p{
+    color: #7A7A7A;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 200%; /* 40px */
+}
+.paragraph .button{
+    margin-top:40px;
+}
+.skill ul{
+    justify-content: center;
+}
+.skill .mybutton{
+    color: #353535;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%; /* 32.4px */
+text-transform:capitalize;
+}
+.skill .mybutton2{
+    color: #353535;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%; /* 32.4px */
+text-transform:capitalize;
+}
+.skill-card h4{
+    color: #353535;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 180%; /* 32.4px */
+  text-transform: capitalize;
+  }
+ .skill-card{
+    margin-top:40px;
+ }
+ .skill-card .progress-bar{
+    background-color:#F16500;
+ }
+ .skill-card .progress-bar2{
+    background-color:#03249B;
+    color:white;
+ }
+ .skill-card .progress-bar3{
+    background-color:#700D60;
+    color:white;
+ }
+ .skill-card .progress-bar4{
+    background-color:#234BDA;
+    color:white;
+ }
+/*expert ends  */
+/* service start */
+.servicecard0 .picture{
+    text-align: center;
+}
+.servicecard0{
+    padding:50px;
+    transition:0.35s;
+}
+.servicecard0 h2{
+    color: #353535;
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 180%; /* 43.2px */
+}
+.servicecard0 p{
+    color: #7A7A7A;
+text-align: center;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 27px */
+}
+#service{
+    background-color:#FFF7D5 ;
+}
+.servicecard0{
+    background-color:white;
+}
+.heading{
+    margin-bottom:50px;
+}
+#service .row{
+    justify-content:space-evenly;
+}
+.servicecard0:hover{
+    border-radius: 12px;
+border:0.1px solid #353535;
+background: linear-gradient(159deg, #FC0 3.12%, #FFE476 94.59%);
+box-shadow: 0px 4px 10px 0px rgb(0, 0, 0);
+}
+/* service ends */
+/* feedback start */
+#feedback{
+    margin-top:50px;
+}
+#feedback .heading h2{
+    text-align: left;
+}
+#feedback .heading p{
+    text-align: left;
+}
+#feedback .text p{
+    color: #7A7A7A;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 200%; /* 40px */
+}
+#feedback .text h2{
+    color: #353535;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 48px */
+}
+/* feedback ends */
+/* blog start */
+#blog .heading h2{
+    text-align: right;
+    margin-bottom:40px;
+}
+#blog .myblog .text p{
+    color: #7A7A7A;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 190%; /* 26.6px */
+text-align: left;
+}
+#blog .myblog .text h3{
+    color: #353535;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 190%; /* 34.2px */
+}
+#blog .myblog .text h4{
+    color: #353535;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 190%; /* 34.2px */
+}
+.myblog{
+    margin-bottom:40px;
+}
+/* blog ends */

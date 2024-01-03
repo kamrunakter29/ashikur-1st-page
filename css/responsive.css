@@ -1,0 +1,253 @@
+/* nav */
+@media(min-width:320px)and (max-width:800px){ */
+    .navbar-toggler{
+        border:0;
+        box-shadow: none !important;
+
+      }   
+
+
+      
+    }
+    /* nav ends */
+    /* banner */
+    @media(max-width:991px){
+        .button{
+            padding:8px 20px;
+            border-radius:10px;
+            font-size:10px;
+
+        }
+        .bannercnt h4{
+            font-size:15px;
+        }
+        .bannercnt h1{
+            font-size:34px;
+        }
+        .bannercnt p{
+            font-size:15px;
+        }
+        .bannercnt svg{
+            height:16px;
+            width:16px;
+        }
+        .image img{
+            max-width:100%;
+        }
+        .social{
+            margin-top:20px
+        }
+        
+        .social ul li a{
+        
+        width:5px;
+        height:5px;
+        padding-top:0px;
+        
+        }
+        .social h4{
+        font-size: 15px;
+        
+        }
+
+    }
+   /* banner ends */
+   /* about  */
+   @media(min-width:320px)and(max-width:991px){
+    #about .image{
+        max-width:100%;
+
+    }
+   }
+   
+   /* about ends */
+   /* branding start */
+   @media(max-width:991px){
+    #branding{
+        max-width:100%;
+        margin:20px;
+    }
+    .brandingcard{
+        margin-top:20px;
+        border-radius: 20px;
+    background: linear-gradient(95deg, #FC0 -21.46%, #FFF5CB 112.13%);
+    padding:30px;
+    }
+   }
+   /* branding ends */
+/* windows start */
+@media(min-width:320px)and(max-width:991px){
+.help.text h2{
+    color: #353535;
+text-align:left;
+font-family: PT Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+}
+.help.text p{
+    color: #353535;
+text-align:left;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 190%; /* 38px */
+margin-bottom:30px;
+}
+.number h3{
+    color: #353535;
+text-align:left;
+font-family: PT Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.number p{
+    color: #353535;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%; /* 25.2px */
+
+}
+}
+/* work start */
+@media(min-width:320px) and (max-width:991px){
+    .timeline{
+        border-left:1px dashed #7a7a7a;
+        padding-left:25px;
+        max-width:90%;
+        margin: auto;
+    }
+    .timeline  .year{
+        border-right:none;
+        padding:20px 12px;
+        
+    }
+    .timeline  .year::before{
+        left:-24px;
+        right:auto;
+    }
+    .timeline .year::after{
+        left:-35px;
+        right: auto;
+    }
+    }
+
+/* work ends */
+/* expert start */
+@media(max-width:991px){
+.paragraph h2{   
+font-size: 24px;
+
+}
+.paragraph p{
+   
+font-size: 15px;
+
+}
+.skill .mybutton{
+    
+font-size: 16px;
+width:80px;
+height:40px;
+}
+.skill .mybutton2{
+   
+font-size: 16px;
+width:100px;
+height:40px;
+
+}
+.skill-card h4{
+    
+  font-size: 14px;
+  
+  }
+ .skill-card{
+    margin-top:20px;
+ }
+ 
+ 
+}
+/* expert ends */
+/* service start */
+@media(min-width:320px)and(max-width:991px){
+    .servicecard0 p{
+        color: #7A7A7A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 27px */
+    }
+    .servicecard0 h2{
+        color: #353535;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%; /* 43.2px */
+    } 
+   .servicecard0{
+    max-width:100%;
+   }
+}
+/* service ends */
+/* feedback start */
+@media (min-width:320px)and (max-width:991px){
+#feedback .photo img{
+    max-width:100%;
+}
+#feedback .heading h2{
+    text-align: left;
+    font-size: 24px;
+}
+#feedback .heading p{
+    text-align: left;
+    font-size: 13px;
+}
+#feedback .text p{
+    font-size: 15px;
+}
+#feedback .text h2{
+    font-size: 15px;
+}
+}
+/* feedback ends */
+
+/* blog start */
+@media(min-width:320px)and(max-width:991px){
+    #blog .myblog .photo img{
+        max-width:50%;
+
+    }
+    #blog .heading h2{
+        text-align:left;
+        margin-bottom:40px;
+        font-size: 24px;
+    }
+    #blog .myblog .text p{
+        
+    font-size: 10px;
+   
+    }
+    #blog .myblog .text h3{
+       
+    font-size: 13px;
+    
+    }
+    #blog .myblog .text h4{
+      
+    font-size: 12px;
+    
+    }
+}
+/* blog ends */
